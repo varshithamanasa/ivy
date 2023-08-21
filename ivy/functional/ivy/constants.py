@@ -1,6 +1,7 @@
 # global
 import math
-
+import numpy as np
+import scipy.constants as sc
 
 # Array API Standard #
 # -------------------#
@@ -62,3 +63,32 @@ pebi = 2**50
 exbi = 2**60
 zebi = 2**70
 yobi = 2**80
+
+
+# SciPy constants #
+# --------------- #
+
+# Physical Constants
+avogadro_number = sc.Avogadro
+planck_constant = sc.Planck
+speed_of_light_vacuum = sc.speed_of_light
+gravitational_constant = sc.G
+electron_mass = sc.m_e
+
+# Electromagnetic Constants
+elementary_charge = sc.e
+vacuum_permeability = sc.mu_0
+vacuum_permittivity = sc.epsilon_0
+
+# ... (more constants from SciPy)
+
+# Additional frontend functions #
+# --------------- #
+
+# Calculate the factorial of a number using SciPy
+def factorial(n):
+    return sc.factorial(n)
+
+# Calculate the gamma function using SciPy
+def gamma_function(x):
+    return sc.gamma(x)
