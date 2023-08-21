@@ -1,6 +1,7 @@
 # global
 import math
-
+import numpy as np
+from scipy.constants import *
 
 # Array API Standard #
 # -------------------#
@@ -62,3 +63,57 @@ pebi = 2**50
 exbi = 2**60
 zebi = 2**70
 yobi = 2**80
+
+
+# SciPy constants #
+# --------------- #
+
+# Physical Constants
+avogadro_number = Avogadro
+planck_constant = Planck
+speed_of_light_vacuum = speed_of_light
+gravitational_constant = G
+electron_mass = m_e
+
+# Electromagnetic Constants
+elementary_charge = e
+vacuum_permeability = mu_0
+vacuum_permittivity = epsilon_0
+
+# Atomic and Nuclear Constants
+atomic_mass_constant = m_u
+bohr_radius = a0
+nuclear_magneton = mu_N
+rydberg_constant = rydberg
+
+# Natural Constants
+boltzmann_constant = k
+faraday_constant = F
+gas_constant = R
+
+# Conversion Factors
+inch_to_meter = inch
+pound_to_kilogram = lb
+
+# Astronomical Constants
+astronomical_unit = au
+light_year = light_year
+
+# Mathematical Constants
+euler_mascheroni_constant = gamma
+
+# Time Constants
+julian_year = Julian_year
+
+# Unit Conversions
+degrees_to_radians = deg
+radians_to_degrees = rad
+
+# Molar Gas Constant
+molar_gas_constant = R
+
+
+
+
+
+
